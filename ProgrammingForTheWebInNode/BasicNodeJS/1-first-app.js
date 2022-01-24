@@ -14,9 +14,11 @@ setTimeout(() => {
         compareNumber = "bigger number"
     
     fs.writeFileSync('hello.txt', compareNumber);
+    console.log(compareNumber);
+    
 }, 10000);
 
-fs.writeFileSync('hello.txt', 'Second Time');
+
 
 
 

@@ -6,10 +6,10 @@
 // modules - info about current module
 // process - info about env where the program is being executed
 
-console.log(__dirname);
+console.log("Directory name - ", __dirname);
 
 setTimeout(() => {
-    console.log(__filename)
+    console.log("file path name - " ,__filename)
 }, 5000)
 
 setInterval(() => {
